@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(90deg,rgba(227, 198, 235, 0.3),rgba(116, 207, 243, 0.3)), url(image/hero1.png);
+    background-position: center;
+    background-size: cover;
+}
+.icontop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.icontop li{
+  list-style: none;
+  display: inline-block;
+  margin: 1px 1px;
+}
+.icontop a{
+    text-decoration: none;
+    color: #fff;
+}
+.toplinks{
+    margin-left: 25rem;
+}
+.toplinks i{
+    font-size: 20px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 2px;
+}
+.listanim li{
+   list-style:;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
