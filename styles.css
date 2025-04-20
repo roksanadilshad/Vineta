@@ -2,11 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+       font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      
 }
 header{
     min-height: 100vh;
     width: 100%;
-    background-image:linear-gradient(90deg,rgba(227, 198, 235, 0.3),rgba(116, 207, 243, 0.3)), url(image/hero1.png);
+    background-image:linear-gradient(90deg,rgba(227, 198, 235, 0.3),rgba(116, 207, 243, 0.3));
     background-position: center;
     background-size: cover;
 }
@@ -14,41 +18,123 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
+    background-color: #333;
     color: #fff;
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 .icontop li{
-  list-style: none;
-  display: inline-block;
-  margin: 1px 1px;
+display: inline-block;
+ margin: 1px 1px;
 }
 .icontop a{
     text-decoration: none;
     color: #fff;
 }
+
 .toplinks{
-    margin-left: 25rem;
+    margin-left: 15rem;
 }
 .toplinks i{
     font-size: 20px;
     border: 1px solid #fff;
     border-radius: 50%;
-    padding: 2px;
+    padding: 3px;
+    transition: .5s;
 }
-.listanim li{
-   list-style:;
+.toplinks i:hover{
+    color: orangered;
+    border: 1px solid orangered;
+    border-radius: 50%;
+}
+.listanim{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   right: 50rem;
+   position: absolute;
+   
+}
+.listanim p{
+    margin-right: 10px;
+    transform: skew(50deg 40deg); 
+    animation: scroll 10s ease-in-out infinite;
+    position: relative;
+    transition: .5s;
+ 
 }
 
+.listanim .ri-circle-fill{
+  margin: 10px;
+   font-size: 5px;
+   
+}
+.language{
+    margin-right: 14rem;
+}
+.language img{
+     width: 15px;
+     height: 15px;
+}
+.drop-down{
+    display: none;
+}
+.drop-down-2{
+    display: none;
+}
 
+.language ul li:hover .drop-down{
+    display: block;
+    position: absolute;
+    background: #fff;
+    box-shadow: .6px .3px .6px .2px #555;
+    color: #000;
+    margin-top: 10px;
+    margin-left:-10px;
+   height: 100px;
+   width: 80px;
+  
+}
+.language ul li:hover .drop-down ul{
+   display: block;
+   margin: 10px;
+}
 
-
-
-
-
-
-
+nav img{
+   margin-left: 16rem;
+   padding: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+nav .nav-bar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    
+}
+.nav-bar ul li{
+    list-style: none;
+    margin: 20px;
+    font-size: 15px;
+   
+}
+.nav-icon ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 15rem;
+}
+.nav-icon ul li {
+    list-style: none;
+    margin: 5px;
+    font-size: 24px;
+    font-weight:500;
+}
 
 
 
