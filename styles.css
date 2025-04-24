@@ -55,7 +55,7 @@ display: inline-block;
   .scroll {
     display: inline-block;
     white-space: nowrap;
-    animation: scroll-center 15s linear infinite; /* Animation name changed */
+    animation: scroll-center 20s linear infinite; /* Animation name changed */
     color: #fff;
   }
   
@@ -267,13 +267,13 @@ color: orangered;
   text-align: center;
 }
 .best-sellers h1{
-    padding: 20px;
+    
     font-size: 40px;
     font-weight: 500;
     text-align: center;
 }
 .row{
-  margin-top: 5%;
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   padding-left: 13rem;
@@ -495,19 +495,122 @@ span{
   color: orangered;
 }
 
+/* today's picks */
+
+.ic5{
+  color: brown;
+}
+.ic6{
+  color: orange;
+}
+.ic7{
+  color:violet ;
+}
+.ic8{
+  color:skyblue ;
+}
+.ic9{
+  color:green ;
+}
+
+/* Happy Coustomers
+ */
+
+ .author{
+  border: .01px solid rgb(209, 205, 205);
+  padding: 10px;
+ }
+ .vb h4{
+   font-weight: 500;
+   padding: 6px;
+   margin-left: -13rem;
+ }
+.vb{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  color: #555;
+  
+}
+.vb p{
+  font-size: 12px;
+  margin-top: 20px;
+}
+.vb i{
+  font-size: 16px;
+  border: none;
+}
+.star i{
+ color: rgb(120, 167, 13);
+ font-size: 16px;
+ border: none;
+
+}
+.star{
+  margin: 20px;
+}
+.author img{
+border-radius: 50%;
+height: 80px;
+width: 80px;
+margin-left: 5px;
+
+padding: 10px;
+
+}
+.comment p{
+  color: #555;
+}
+.comment{
+  margin: 10px;
+}
+.author-face{
+  display: flex;
+  align-items:center;
+  justify-content:left;
+  
+}
+.author-face p{
+  font-size: 14px;
+}
+
+hr {
+  height: .01px;/* Adjust the height value as needed */
+  
+  color: #f1eeee;
+}
+/* animation-2 */
+.animation-2{
+  width: 100%;
+  margin: auto;
+  padding:6rem;
+  background-color: #fff;
+}
+
+.scroll B{
+  color: #000;
+  padding: 30PX;
+  font-size: 40PX;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
+/* @gram */
+.fecilities{
+  margin: 40px 120px;
+}
+.last i{
+  font-size: 50px;
+  font-weight: 100;
+  margin-left: 30px;
+  padding: 10px;
+}
+.last h4{
+  font-size: 20px;
+}
+.last p{
+  margin-left: -20px;
+  color: #555;
+}
 
 
 
